@@ -6,8 +6,8 @@ import 'service_interface.dart';
 
 part 'recipe_service.chopper.dart';
 
-const String apiKey = 'e59bcec3109b214f47e9108eb4d3c9ba';
-const String apiId = 'cdb6e441';
+const String apiKey = <YOUR KEY HERE>;
+const String apiId = <YOUR API ID HERE>;
 const String apiUrl = 'https://api.edamam.com/search';
 @ChopperApi()
 abstract class RecipeService extends ChopperService
